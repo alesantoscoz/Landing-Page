@@ -13,22 +13,20 @@ const About = () => {
         <img src={AboutBackgroundImage} alt="" />
       </div>
       <div className="about-section-text-container">
-        <p className="primary-subheading">About</p>
+        <p className="primary-subheading">Sobre Nosotros</p>
         <h1 className="primary-heading">
-          Food Is An Important Part Of A Balanced Diet
+        Bienvenido a Patitas,
         </h1>
         <p className="primary-text">
-          Lorem ipsum dolor sit amet consectetur. Non tincidunt magna non et
-          elit. Dolor turpis molestie dui magnis facilisis at fringilla quam.
+        Un programa implementado en las municipalidades para ayudar a los animales callejeros. Nuestra aplicación permite a los vecinos reportar animales abandonados y encontrar albergues para su cuidado y adopción. Además, buscamos voluntarios jóvenes que deseen participar en la identificación de animales y en campañas de adopción.
         </p>
         <p className="primary-text">
-          Non tincidunt magna non et elit. Dolor turpis molestie dui magnis
-          facilisis at fringilla quam.
+        También ofrecemos programas de entrenamiento para perros rescatados y mascotas "influencers". Organizamos ferias de donativos y estamos desarrollando un chip de última tecnología para comprender y ubicar a los animales. Únete a nuestra comunidad y juntos hagamos una diferencia en la vida de estos animales necesitados.
         </p>
         <div className="about-buttons-container">
-          <button className="secondary-button">Learn More</button>
+          <button className="secondary-button">Unirme</button>
           <button className="watch-video-button">
-            <BsFillPlayCircleFill /> Watch Video
+            <BsFillPlayCircleFill /> Mira nuestro video
           </button>
         </div>
       </div>

@@ -1,7 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import React, { useState } from "react";
+import React, { useState, } from "react";
 import Logo from "../Assets/Logo.svg";
-import { BsCart2 } from "react-icons/bs";
 import { HiOutlineBars3 } from "react-icons/hi2";
 import Box from "@mui/material/Box";
 import Drawer from "@mui/material/Drawer";
@@ -15,30 +14,32 @@ import HomeIcon from "@mui/icons-material/Home";
 import InfoIcon from "@mui/icons-material/Info";
 import CommentRoundedIcon from "@mui/icons-material/CommentRounded";
 import PhoneRoundedIcon from "@mui/icons-material/PhoneRounded";
-import ShoppingCartRoundedIcon from "@mui/icons-material/ShoppingCartRounded";
+import PetsIcon from '@mui/icons-material/Pets';
 
 const Navbar = () => {
   const [openMenu, setOpenMenu] = useState(false);
+
+
   const menuOptions = [
     {
       text: "Home",
       icon: <HomeIcon />,
     },
     {
-      text: "About",
+      text: "Sobre Nosotros",
       icon: <InfoIcon />,
     },
     {
-      text: "Testimonials",
+      text: "Donaciones",
       icon: <CommentRoundedIcon />,
     },
     {
-      text: "Contact",
+      text: "Contactanos",
       icon: <PhoneRoundedIcon />,
     },
     {
-      text: "Cart",
-      icon: <ShoppingCartRoundedIcon />,
+      text: "Adopta Patitas",
+      icon: <PetsIcon />,
     },
   ];
   return (
@@ -47,14 +48,13 @@ const Navbar = () => {
         <img src={Logo} alt="" />
       </div>
       <div className="navbar-links-container">
-        <a href="">Home</a>
-        <a href="">About</a>
-        <a href="">Testimonials</a>
-        <a href="">Contact</a>
-        <a href="">
-          <BsCart2 className="navbar-cart-icon" />
-        </a>
-        <button className="primary-button">Bookings Now</button>
+        <a >Home</a>
+        <a >Nosotros</a>
+        <a >Donaciones</a>
+        <a >Adopta Patitas</a>
+
+        <button className="primary-button">Contrata Engreídos</button>
+        <button className="primary-button">Descarga la App</button>
       </div>
       <div className="navbar-menu-container">
         <HiOutlineBars3 onClick={() => setOpenMenu(true)} />

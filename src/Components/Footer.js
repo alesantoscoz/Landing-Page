@@ -21,22 +21,24 @@ const Footer = () => {
       </div>
       <div className="footer-section-two">
         <div className="footer-section-columns">
-          <span>Qualtiy</span>
-          <span>Help</span>
-          <span>Share</span>
-          <span>Carrers</span>
-          <span>Testimonials</span>
-          <span>Work</span>
+          <span>Equipo</span>
+          <span>Ayuda</span>
+          <span>Compartir</span>
+          <span>Trabajo</span>
+          <span>Testimonios</span>
+          <span>Aplicación</span>
         </div>
         <div className="footer-section-columns">
-          <span>244-5333-7783</span>
-          <span>hello@food.com</span>
-          <span>press@food.com</span>
-          <span>contact@food.com</span>
+          <span>999-888-777-111</span>
+          <span>Ale@patitas.com</span>
+          <span>Cintya@patitas.com</span>
+          <span>Raul@patitas.com</span>
+          <span>Maria@patitas.com</span>
+          <span>Luis@patitas.com</span>
         </div>
         <div className="footer-section-columns">
-          <span>Terms & Conditions</span>
-          <span>Privacy Policy</span>
+          <span>Términos y Condiciones</span>
+          <span>Políticas de Privacidad</span>
         </div>
       </div>
     </div>
